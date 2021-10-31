@@ -1,14 +1,12 @@
-# cc-ui组件库
+# 快速开始
 
-### 快速开始
-
-#### 1.安装组件库
-
+### 安装组件库
 ```bash
-npm i cc-ui
+npm i cc-ui-test
 ```
 
-#### 2.引用组件库
+### 使用组件库
+> 在main.js中引用组件库
 ```javascript
 // 全部引入
 import 'cc-ui/dist/css/index.css'
@@ -20,4 +18,3 @@ import 'cc-ui/dist/css/demo.css'
 import { Demo } from 'cc-ui'
 Vue.use(Demo)
 ```
-
